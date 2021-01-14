@@ -1,8 +1,8 @@
 # Forged-Workshop-3
 
-### Basic Requirements
+### While Loops 
 
-#### While Loops (5 points each)
+#### Basic Practice (5 points each)
 
 1. **Summation to `n`:** Let's implement the function `sum` that takes a single
    parameter `n`, and computes the sum of all integers up to `n` starting from
@@ -46,7 +46,7 @@
 
    Your task is to implement the `repeatString` function using a `while` loop.
 
-### More Practice (10 points each)
+#### More Practice (10 points each)
 
 1. Modify your `sum` function from the **Basic Requirements** section to accept
    *two* parameters, `start` and `end`: `sum` should now compute the sum of the
@@ -91,7 +91,7 @@
    and multiplies them together -- but without using the `*` operator; instead,
    you'll need to use repeated addition.
 
-### Advanced (15 points each)
+#### Advanced (15 points each)
 
 1. **Compute the `n`th Fibonacci Number:** The fibonacci numbers are represented by the
    following sequence:
@@ -178,7 +178,9 @@
    `string`. You'll need to make use of the techniques for accessing the *first*
    element of a string and the *rest* of the string (`slice`) as before.
 
-#### Creating Arrays (5 points each)
+### Creating Arrays
+
+#### Basic Practice (5 points each)
 
 1. Using the array: `["cat", "fox", "dog", "monkey"]`, what is the index of:
 
@@ -201,7 +203,9 @@
    + Names of people you know/care about
    + Favorite sports/activities
 
-#### Accessing Array Elements (5 points each)
+### Accessing Array Elements
+
+#### Basic Practice (5 points each)
 
 1. Using the arrays that you created in the last exercise, use the console to access:
 
@@ -216,7 +220,9 @@
    *last* element in the array. **Hint:** What is the relationship between the
    *index* of the last element in the array and the *length* of the array?
 
-#### Modifying Arrays (5 points each)
+### Modifying Arrays
+
+#### Basic Practice (5 points each)
 
 1. Using `push` and `unshift`, make this array contain the
    numbers from zero through seven:
@@ -262,7 +268,7 @@
    places; // => ['san francisco', 'oakland', 'santa cruz']
    ```
 
-### More Practice (10 points each)
+#### More Practice (10 points each)
 
 1. Write a function called `nth` that accepts an array and an index as
    parameters, and returns the element at that index.
@@ -324,7 +330,7 @@
    What is the value of `arr` after assigning an element to its seventh index?
    Explain the result in plain English.
 
-### Advanced (15 points each)
+#### Advanced (15 points each)
 
 1. Without running the below function, use a whiteboard to figure out what it
    should return by repeatedly expanding function invocations:
@@ -347,9 +353,11 @@
 
   **HINT:** After figuring out how the `mystery` function works above, use it
    as a reference for how to write this type of function.
-   
 
-#### Array Iteration (5 points each)
+
+### Array Iteration
+
+#### Basic Practice (5 points each)
 
 1. Write a function `sum` that computes the sum of the numbers in an array.
 
@@ -384,7 +392,7 @@
 5. Write a function `evens` that accepts an array as an argument, and returns
    an array consisting of all of the *even* numbers in that array.
 
-### More Practice (10 points each)
+#### More Practice (10 points each)
 
 1. Write a function called `average` that takes an array of numbers as a
    parameter and returns the *average* of those numbers.
@@ -402,7 +410,7 @@
 5. Write a function `evenLengthWords` that takes an array of *strings* as an
    argument, and returns an array of just the words that have an even length.
 
-### Advanced (15 points each)
+#### Advanced (15 points each)
 
 1. Read about the `join` method on
    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
